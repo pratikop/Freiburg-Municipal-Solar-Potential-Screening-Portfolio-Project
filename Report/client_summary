@@ -1,0 +1,41 @@
+# Client Summary: Freiburg Municipal Solar Potential Screening
+
+## Objective
+
+Estimate PV generation and indicative CO₂ savings for municipal rooftop PV deployment scenarios in Freiburg im Breisgau, Germany.
+
+## Data and assumptions
+
+- Data source: European Commission JRC PVGIS 5.3 API.
+- Reference location: 47.999, 7.8421.
+- Reference system: 1 kWp crystalline silicon PV.
+- Tilt/orientation: 35° tilt, south-facing.
+- System losses: 14%.
+- Analysis year: 2023.
+- CO₂ factor: 0.38 kg CO₂/kWh. This is a configurable reporting assumption.
+
+## Key result
+
+The PVGIS-based annual yield for the reference system is approximately **1112.7 kWh/kWp/year**.
+
+The highest-yield month in the dataset is **month 6**, with **158.5 kWh/kWp**.
+
+## Scenario results
+
+|   scenario_capacity_kwp |   annual_yield_kwh_per_kwp |   annual_generation_kwh |   annual_generation_mwh |   estimated_co2_savings_tonnes |
+|------------------------:|---------------------------:|------------------------:|------------------------:|-------------------------------:|
+|                   100.0 |                     1112.7 |                111272.9 |                   111.3 |                           42.3 |
+|                   500.0 |                     1112.7 |                556364.4 |                   556.4 |                          211.4 |
+|                  1000.0 |                     1112.7 |               1112728.8 |                  1112.7 |                          422.8 |
+
+## Interpretation for municipal planning
+
+A small 100 kWp pilot already creates a measurable local renewable-energy contribution and can be used to validate permitting, procurement, monitoring, and public communication workflows. A 500–1,000 kWp program can be framed as a city-district package, especially when paired with rooftop screening, school/public-building prioritization, and local grid-connection review.
+
+## Recommended next steps
+
+1. Add building-level rooftop/cadastre data.
+2. Prioritize public buildings with high daytime consumption.
+3. Compare PV production against municipal load profiles.
+4. Add grid-connection constraints and transformer-level hosting capacity.
+5. Turn the results into a workshop-ready dashboard for local stakeholders.
