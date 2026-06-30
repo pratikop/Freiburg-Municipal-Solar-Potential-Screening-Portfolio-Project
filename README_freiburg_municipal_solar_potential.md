@@ -3,7 +3,7 @@
 A compact, reproducible energy data project that estimates photovoltaic (PV) generation potential for Freiburg im Breisgau, Germany using real public solar data from the European Commission Joint Research Centre PVGIS API.
 
 The project converts location-based PV production data into monthly generation results, simple rooftop deployment scenarios, estimated CO₂ savings, and a client-style summary suitable for municipal energy planning discussions.
-
+ 
 ## Project Question
 
 How much electricity could a municipal rooftop PV program in Freiburg generate, and what approximate CO₂ savings could it deliver under different deployment scenarios?
